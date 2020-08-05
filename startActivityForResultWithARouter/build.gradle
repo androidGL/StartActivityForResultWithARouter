@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.androidGL'
 
 android {
     compileSdkVersion 29
@@ -9,11 +11,6 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                arguments = [AROUTER_MODULE_NAME: project.getName()]
-//            }
-//        }
     }
 
     buildTypes {
